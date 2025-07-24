@@ -65,6 +65,10 @@ It’s built using **open-source transformers** and trained on trusted crisis da
 ⚠️ **Important:**  
 This AI is for **information support only**. It is not a replacement for official communication, verified rescue coordination, or medical guidance. Always verify critical crisis information with **reliable local authorities** and trusted news channels.
 
+⚠️ **Only for Disaster-Related Tweets:**  
+    This model is specifically trained on **disaster and crisis tweets**.  
+    If you enter unrelated or everyday tweets, it will still try to predict them as a **crisis-related category**, which will give misleading results.  
+    Please **only use real disaster or emergency context tweets** for meaningful predictions.
 """)
 
 st.markdown(
